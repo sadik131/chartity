@@ -6,8 +6,7 @@ A brief description of what this project does and who it's for
 
 ## PDF of website
 
-Desktop page1
-https://drive.google.com/file/d/1yIpufmcs5f06FF35n7tUkEaaOWf0Z2np/view?usp=sharing
+Desktop page1 : https://drive.google.com/file/d/1SGiLwCO7J1xC1mT9eMFZ-UGyAO09ennH/view?usp=sharing
 
 Mobile page1
 
