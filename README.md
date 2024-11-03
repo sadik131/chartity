@@ -7,9 +7,10 @@ A brief description of what this project does and who it's for
 ## PDF of website
 
 Desktop page1
-https://drive.google.com/file/d/1yIpufmcs5f06FF35n7tUkEaaOWf0Z2np/view?usp=sharing
+https://drive.google.com/file/d/1Ws0XJwtKwaJXbxDftUR6oSygTrCpB3jo/view?usp=sharing
 
 Mobile page1
+https://drive.google.com/file/d/1TOSAxhKy0B-JkW8g_67ks2yN2fWtaINM/view?usp=sharing
 
 ## Features
 

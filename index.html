@@ -5,208 +5,294 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./src/output.css" rel="stylesheet">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
-<body class=" bg-[#F9FAFB]">
+<body class="">
 
   <main class="">
     <!-- header section -->
-    <nav class="py-7 px-7 bg-white">
-      <div class=" flex justify-between w-full ">
-        <div>
+    <nav class="py-7 px-8 lg:px-0 bg-white">
+      <div class="max-w-[1170px] mx-auto flex justify-between w-full ">
+        <div class="flex items-center justify-between w-full">
           <img src="https://clarity-tailwind.preview.uideck.com/images/logo.svg" alt="">
+          <div class="hidden lg:flex items-center gap-5">
+            <a class="text-base text-primaryFont" href="">Home <span><i class="fa-solid fa-angle-down"></i></span></a>
+            <a class="text-base text-primaryFont" href="">Pages <span><i class="fa-solid fa-angle-down"></i></span></a>
+            <a class="text-base text-primaryFont" href="">Blogs <span><i class="fa-solid fa-angle-down"></i></span></a>
+            <a class="text-base text-primaryFont" href="">Support <span><i
+                  class="fa-solid fa-angle-down"></i></span></a>
+          </div>
+          <div class="">
+            <div class="hidden lg:flex gap-3 justify-between items-center">
+              <div class="flex gap-10 items-center">
+                <div class="flex gap-4 items-center">
+                  <i class="fa-brands text-lg text-primaryFont fa-facebook-f"></i>
+                  <i class="fa-brands text-lg text-primaryFont fa-twitter"></i>
+                  <i class="fa-brands text-lg text-primaryFont fa-linkedin-in"></i>
+                  <i class="fa-brands text-lg text-primaryFont fa-instagram"></i>
+                </div>
+                <div class="flex items-center gap-4">
+                  <div class="bg-[#F9FAFB] h-11 w-11 rounded-full flex items-center justify-center">
+                    <i class="fa-solid text-primaryFont text-lg fa-magnifying-glass"></i>
+                  </div>
+                  <button class="bg-black text-white rounded-md font-semibold px-5 py-3">
+                    Subscribe
+                  </button>
+                </div>
 
+              </div>
+            </div>
+          </div>
+          <div class="block lg:hidden"><i class="fa-solid text-2xl fa-bars"></i></div>
         </div>
-        <div class="block lg:hidden"><i class="fa-solid text-2xl fa-bars"></i></div>
-      </div>
     </nav>
 
     <!-- hero section -->
-    <section class="py-14 ">
-      <div class="flex  p-[10px] gap-5 items-center bg-white">
+    <section class="pt-20 font-inter px-4 bg-[#F9FAFB] rounded-b-3xl lg:pt-25 pb-16">
+      <div
+        class="flex shadow-md flex-col lg:flex-row lg:w-[1170px] mx-auto rounded-xl p-4 lg:p-[10px] gap-8 items-center bg-white">
         <div>
-          <img class="w-[536px]" src="./img/hero-01.png" alt="">
+          <img class="" src="./img/hero-01.png" alt="">
         </div>
-        <div class="w-1/2 ">
-          <span class="text-[#6d28d9] mb-3 px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl">Lifestyle</span>
-          <h2 class="text-3xl font-bold mb-4">Begin here to obtain a brief summary encompassing all the essential</h2>
-          <p class="text-primaryFont mt-5">This comprehensive post serves as your cheat-sheet to swiftly familiarize
+        <div class="w-full lg:w-1/2 ">
+          <span class="text-[#6d28d9] mb-3 px-3 py-1 font-medium inline-block bg-[#F6F0FE] rounded-3xl">Lifestyle</span>
+          <h2 class="text-[22px] leading-[30px] lg:text-3xl font-bold mb-4">Begin here to obtain a brief summary
+            encompassing all the essential</h2>
+          <p class="text-primaryFont font-medium mt-5">This comprehensive post serves as your cheat-sheet to swiftly
+            familiarize
             yourself with Ghost. Packed with crucial...</p>
-          <div class="flex items-center mt-5 text-sm gap-3 text-primaryFont">
+          <div class="flex items-center font-normal mt-5 text-sm gap-3 text-primaryFont">
             <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
             <h5>Adrio devid</h5>
             <li class="list-disc"></li>
             <h5>Sep 10, 2025</h5>
           </div>
         </div>
+      </div>
+      <div class="lg:w-[1170px] mt-9 gap-8 lg:flex mx-auto">
+        <div class="lg:flex gap-6 p-4 rounded-xl shadow-md bg-white items-center">
+          <img class="w-full" src="./img/hero-02.png" alt="">
+          <div>
+            <span
+              class="text-[#6d28d9] my-3 px-3 py-1 font-medium inline-block bg-[#F6F0FE] rounded-3xl">Lifestyle</span>
+            <h3 class="text-lg">14 Innovative Architectural Designs to Create a Vast Interior Space</h3>
+            <div class="flex items-center text-sm gap-3 text-primaryFont">
+              <h5 class="">Adrio devid</h5>
+              <li class="list-disc"></li>
+              <h5>Sep 10, 2025</h5>
+            </div>
+          </div>
+        </div>
+        <div class="lg:flex gap-6 p-4 rounded-xl mt-5 shadow-md lg:mt-0 bg-white items-center">
+          <img class="w-full" src="./img/hero-02.png" alt="">
+          <div>
+            <span
+              class="text-[#6d28d9] my-3 px-3 py-1 font-medium inline-block bg-[#F6F0FE] rounded-3xl">Lifestyle</span>
+            <h3 class="text-lg">14 Innovative Architectural Designs to Create a Vast Interior Space</h3>
+            <div class="flex text-sm gap-3 text-primaryFont items-center">
+              <h5 class="">Adrio devid</h5>
+              <li class="list-disc"></li>
+              <h5>Sep 10, 2025</h5>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
     <!-- catagory -->
-    <section class="pb-16">
-      <div class="text-center mb-12">
-        <h1 class="text-dark mb-3.5 text-2xl font-bold sm:text-4xl xl:text-heading-3">Browse by Category</h1>
-        <h3 class="text-primaryFont">Select a category to see more related content</h3>
+    <section class="pt-20 font-inter lg:pt-25 px-4 pb-14 bg-white">
+      <div class="lg:w-[1170px] mx-auto">
+        <div class="text-center mb-12">
+          <h1 class="text-dark mb-3.5 text-2xl font-bold sm:text-4xl xl:text-heading-3 text-headingColor">Browse by
+            Category</h1>
+          <h3 class="text-primaryFont font-medium">Select a category to see more related content</h3>
+        </div>
+        <div class="flex flex-wrap gap-4 mb-14 items-center justify-center">
+          <span class="px-4 py-2 bg-black font-semibold rounded-full hover:text-black text-white">ALL (20)</span>
+          <span
+            class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-headingColor">Technology
+            (20)</span>
+          <span
+            class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-headingColor">Lifestyle
+            (02)</span>
+          <span
+            class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-headingColor">Travel
+            (05)</span>
+          <span
+            class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-headingColor">Health
+            (09)</span>
+          <span
+            class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-headingColor">culture
+            (01)</span>
+        </div>
+        <div class="grid gap-x-7 gap-y-11 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="flex flex-col gap-4">
+            <img src="./img/hero-01.png" alt="">
+            <h3 class="text-xl font-bold text-headingColor ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
+            <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+            <div class="flex items-center justify-between mt-5 text-sm gap-3 text-primaryFont">
+              <div class="flex items-center gap-3">
+                <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
+                <h5>Adrio devid</h5>
+                <li class="list-disc"></li>
+                <h5>Sep 10, 2025</h5>
+              </div>
+              <span
+                class="text-[#6d28d9] px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <img src="./img/hero-01.png" alt="">
+            <h3 class="text-xl font-bold text-headingColor ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
+            <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+            <div class="flex items-center justify-between mt-5 text-sm gap-3 text-primaryFont">
+              <div class="flex items-center gap-3">
+                <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
+                <h5>Adrio devid</h5>
+                <li class="list-disc"></li>
+                <h5>Sep 10, 2025</h5>
+              </div>
+              <span
+                class="text-[#6d28d9] px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <img src="./img/hero-01.png" alt="">
+            <h3 class="text-xl font-bold text-headingColor ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
+            <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+            <div class="flex items-center justify-between mt-5 text-sm gap-3 text-primaryFont">
+              <div class="flex items-center gap-3">
+                <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
+                <h5>Adrio devid</h5>
+                <li class="list-disc"></li>
+                <h5>Sep 10, 2025</h5>
+              </div>
+              <span
+                class="text-[#6d28d9] px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <img src="./img/hero-01.png" alt="">
+            <h3 class="text-xl font-bold text-headingColor ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
+            <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+            <div class="flex items-center justify-between mt-5 text-sm gap-3 text-primaryFont">
+              <div class="flex items-center gap-3">
+                <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
+                <h5>Adrio devid</h5>
+                <li class="list-disc"></li>
+                <h5>Sep 10, 2025</h5>
+              </div>
+              <span
+                class="text-[#6d28d9] px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <img src="./img/hero-01.png" alt="">
+            <h3 class="text-xl font-bold text-headingColor ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
+            <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+            <div class="flex items-center justify-between mt-5 text-sm gap-3 text-primaryFont">
+              <div class="flex items-center gap-3">
+                <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
+                <h5>Adrio devid</h5>
+                <li class="list-disc"></li>
+                <h5>Sep 10, 2025</h5>
+              </div>
+              <span
+                class="text-[#6d28d9] px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <img src="./img/hero-01.png" alt="">
+            <h3 class="text-xl font-bold text-headingColor ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
+            <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+            <div class="flex items-center justify-between mt-5 text-sm gap-3 text-primaryFont">
+              <div class="flex items-center gap-3">
+                <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
+                <h5>Adrio devid</h5>
+                <li class="list-disc"></li>
+                <h5>Sep 10, 2025</h5>
+              </div>
+              <span
+                class="text-[#6d28d9] px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
+            </div>
+          </div>
+          
+        </div>
+        <button class="px-[30px] py-3 border border-[#15171a] rounded-md mt-[70px] block mx-auto">Browse all
+          Posts</button>
       </div>
-      <div class="flex gap-4 mb-14 items-center justify-center">
-        <span class="px-4 py-2 bg-black font-semibold rounded-full hover:text-black text-white">ALL (20)</span>
-        <span
-          class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-[#15171A]">Technology
-          (20)</span>
-        <span
-          class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-[#15171A]">Lifestyle
-          (02)</span>
-        <span
-          class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-[#15171A]">Travel
-          (05)</span>
-        <span
-          class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-[#15171A]">Health
-          (09)</span>
-        <span
-          class="px-4 py-2 border hover:bg-black font-semibold rounded-full bg-[#F9FAFB] hover:text-white text-[#15171A]">culture
-          (01)</span>
-      </div>
-      <div class="grid gap-x-7 gap-y-11 grid-cols-3">
-        <div class="flex flex-col gap-4">
-          <img src="./img/hero-01.png" alt="">
-          <h3 class="text-xl font-bold ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
-          <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
-          <div class="flex items-center mt-5 text-sm gap-3 text-primaryFont">
-            <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
-            <h5>Adrio devid</h5>
-            <li class="list-disc"></li>
-            <h5>Sep 10, 2025</h5>
-            <span
-              class="text-[#6d28d9] mb-3 px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4">
-          <img src="./img/hero-01.png" alt="">
-          <h3 class="text-xl font-bold ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
-          <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
-          <div class="flex items-center mt-5 text-sm gap-3 text-primaryFont">
-            <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
-            <h5>Adrio devid</h5>
-            <li class="list-disc"></li>
-            <h5>Sep 10, 2025</h5>
-            <span
-              class="text-[#6d28d9] mb-3 px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4">
-          <img src="./img/hero-01.png" alt="">
-          <h3 class="text-xl font-bold ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
-          <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
-          <div class="flex items-center mt-5 text-sm gap-3 text-primaryFont">
-            <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
-            <h5>Adrio devid</h5>
-            <li class="list-disc"></li>
-            <h5>Sep 10, 2025</h5>
-            <span
-              class="text-[#6d28d9] mb-3 px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4">
-          <img src="./img/hero-01.png" alt="">
-          <h3 class="text-xl font-bold ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
-          <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
-          <div class="flex items-center mt-5 text-sm gap-3 text-primaryFont">
-            <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
-            <h5>Adrio devid</h5>
-            <li class="list-disc"></li>
-            <h5>Sep 10, 2025</h5>
-            <span
-              class="text-[#6d28d9] mb-3 px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4">
-          <img src="./img/hero-01.png" alt="">
-          <h3 class="text-xl font-bold ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
-          <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
-          <div class="flex items-center mt-5 text-sm gap-3 text-primaryFont">
-            <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
-            <h5>Adrio devid</h5>
-            <li class="list-disc"></li>
-            <h5>Sep 10, 2025</h5>
-            <span
-              class="text-[#6d28d9] mb-3 px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4">
-          <img src="./img/hero-01.png" alt="">
-          <h3 class="text-xl font-bold ">Stylish Kitchen And Dining Room With Functional Ideas</h3>
-          <p class="text-primaryFont">Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
-          <div class="flex items-center mt-5 text-sm gap-3 text-primaryFont">
-            <img src="./img/user-01.png" class="rounded-full h-6 w-6" alt="">
-            <h5>Adrio devid</h5>
-            <li class="list-disc"></li>
-            <h5>Sep 10, 2025</h5>
-            <span
-              class="text-[#6d28d9] mb-3 px-3 py-1  inline-block bg-[#F6F0FE] rounded-3xl font-semibold">Technology</span>
-          </div>
-        </div>
-      </div>
-      <button class="px-[30px] py-3 border rounded-xl mt-[70px] block mx-auto">Browse all Posts</button>
     </section>
 
     <!-- author -->
 
-    <section class="bg-white">
-      <div class="flex items-center justify-between mb-8">
-        <h1>Top Authors
-        </h1>
-        <h6>All Authors</h6>
-      </div>
-      <br>
-      <div class="py-14 flex-wrap justify-center flex items-center gap-10">
-        <div class="flex p-5 gap-8 bg-[#F9FAFB] rounded-3xl border">
-          <img src="./img/user-01.png" alt="">
-          <div>
-            <h3 class="font-semibold text-xl mb-1">Adrio Devid</h3>
-            <h6 class="text-primaryFont text-base">Director of Operations</h6>
-            <h6 class="text-sm mt-[10px] text-primaryFont">03 Published posts</h6>
+    <section class="pt-20 px-4 lg:pt-25 pb-16 bg-white">
+      <div class="lg:w-[1170px] mx-auto">
+        <div class="flex items-center justify-between mb-8">
+          <h1 class="font-semibold text-3xl text-headingColor">Top Authors
+          </h1>
+          <h6 class="text-base text-headingColor font-semibold">All Authors</h6>
+        </div>
+        <div class="h-[1px] w-full bg-[#e5e7eb]"></div>
+        <div class="lg:py-14 flex-wrap grid grid-cols-1 lg:grid-cols-3 gap-10">
+          <div class="flex p-5 gap-8 bg-[#F9FAFB] rounded-3xl border border-[#e5e7eb]">
+            <img src="./img/user-01.png" alt="">
+            <div>
+              <h3 class="font-semibold text-xl mb-1 text-headingColor">Adrio Devid</h3>
+              <h6 class="text-primaryFont font- text-base">Director of Operations</h6>
+              <h6 class="text-sm mt-[10px] text-primaryFont">03 Published posts</h6>
+            </div>
+          </div>
+          <div class="flex p-5 gap-8 bg-[#F9FAFB] rounded-3xl border border-[#e5e7eb]">
+            <img src="./img/user-01.png" alt="">
+            <div>
+              <h3 class="font-semibold text-xl mb-1 text-headingColor">Adrio Devid</h3>
+              <h6 class="text-primaryFont text-base">Director of Operations</h6>
+              <h6 class="text-sm mt-[10px] text-primaryFont">03 Published posts</h6>
+            </div>
+          </div>
+          <div class="flex p-5 gap-8 bg-[#F9FAFB] rounded-3xl border border-[#e5e7eb]">
+            <img src="./img/user-01.png" alt="">
+            <div>
+              <h3 class="font-semibold text-xl mb-1 text-headingColor">Adrio Devid</h3>
+              <h6 class="text-primaryFont text-base">Director of Operations</h6>
+              <h6 class="text-sm mt-[10px] text-primaryFont">03 Published posts</h6>
+            </div>
           </div>
         </div>
-        <div class="flex p-5 gap-8 bg-[#F9FAFB] rounded-3xl border">
-          <img src="./img/user-01.png" alt="">
-          <div>
-            <h3 class="font-semibold text-xl mb-1">Adrio Devid</h3>
-            <h6 class="text-primaryFont text-base">Director of Operations</h6>
-            <h6 class="text-sm mt-[10px] text-primaryFont">03 Published posts</h6>
-          </div>
-        </div>
-        <div class="flex p-5 gap-8 bg-[#F9FAFB] rounded-3xl border">
-          <img src="./img/user-01.png" alt="">
-          <div>
-            <h3 class="font-semibold text-xl mb-1">Adrio Devid</h3>
-            <h6 class="text-primaryFont text-base">Director of Operations</h6>
-            <h6 class="text-sm mt-[10px] text-primaryFont">03 Published posts</h6>
-          </div>
-        </div>
+
       </div>
     </section>
 
     <!-- subscrib -->
-    <section>
-      <div class="flex items-center py-10 justify-between">
-        <div class="w-[455px]">
-          <h3 class="text-2xl mb-3 font-semibold">Subscribe to Newsletter
-          </h3>
-          <h5 class="text-primaryFont">Provide your email to get email notification when we launch new products or
-            publish new articles
-          </h5>
+    <section class="font-inter">
+      <div class="flex px-4 flex-col lg:flex-row lg:w-[1170px] bg-slate-50 mx-auto items-center py-10 justify-between">
+        <div class="lg:w-[455px]">
+          <h3 class="text-2xl text-headingColor mb-3 font-semibold">Subscribe to Newsletter</h3>
+          <h5 class="text-primaryFont">Provide your email to get email notifications when we launch new products or
+            publish new articles</h5>
         </div>
-        <div class="w-1/2">
+        <div class="w-full mt-10 lg:w-1/2">
           <div class="flex w-full gap-5">
-            <input type="text" name="" class="px-5 py-3 border border-gray-300 w-full" id="">
+            <input placeholder="Enter your Email" type="text"
+              class="px-5 py-3 rounded-md border border-gray-300 w-full">
             <button class="bg-black text-white rounded-md px-5 py-3">Subscribe</button>
           </div>
         </div>
       </div>
     </section>
 
+
+
     <footer>
-      <div class="flex items-center justify-between py-10 text-primaryFont">
+      <div
+        class="flex gap-4 lg:gap-0 items-center flex-col lg:flex-row lg:w-[1170px] mx-auto justify-between py-10 text-primaryFont">
         <div>
           <h1>© 2025 Clarity. All rights reserved</h1>
         </div>
@@ -223,7 +309,8 @@
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-linkedin-in"></i>
             <i class="fa-brands fa-instagram"></i>
-            <button class="bg-black text-white rounded-md px-5 py-3">
+            <button
+              class="bg-headingColor text-white flex items-center justify-center  h-10 w-10  rounded-md px-5 py-3">
               <i class="fa-solid fa-angle-up"></i>
             </button>
 
