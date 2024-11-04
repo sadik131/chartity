@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!-- navbar -->
+        <nav id="navbar" class="py-7 px-8 lg:px-0 bg-white transition-all duration-300">
+            <div class="max-w-[1170px] mx-auto flex justify-between w-full">
+                <div class="flex items-center justify-between w-full">
+                    <img src="https://clarity-tailwind.preview.uideck.com/images/logo.svg" alt="">
+                    <div class="hidden lg:flex items-center gap-5">
+                        <a class="text-base text-primaryFont" href="">Home <span><i
+                                    class="fa-solid fa-angle-down"></i></span></a>
+                        <a class="text-base text-primaryFont" href="">Pages <span><i
+                                    class="fa-solid fa-angle-down"></i></span></a>
+                        <a class="text-base text-primaryFont" href="">Blogs <span><i
+                                    class="fa-solid fa-angle-down"></i></span></a>
+                        <a class="text-base text-primaryFont" href="">Support <span><i
+                                    class="fa-solid fa-angle-down"></i></span></a>
+                    </div>
+                    <div class="">
+                        <div class="hidden lg:flex gap-3 justify-between items-center">
+                            <div class="flex gap-10 items-center">
+                                <div class="flex gap-4 items-center">
+                                    <i class="fa-brands text-lg text-primaryFont fa-facebook-f"></i>
+                                    <i class="fa-brands text-lg text-primaryFont fa-twitter"></i>
+                                    <i class="fa-brands text-lg text-primaryFont fa-linkedin-in"></i>
+                                    <i class="fa-brands text-lg text-primaryFont fa-instagram"></i>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="bg-[#F9FAFB] h-11 w-11 rounded-full flex items-center justify-center">
+                                        <i class="fa-solid text-primaryFont text-lg fa-magnifying-glass"></i>
+                                    </div>
+                                    <button class="bg-black text-white rounded-md font-semibold px-5 py-3">
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block lg:hidden"><i class="fa-solid text-2xl fa-bars"></i></div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- main section -->
+        <section class="pt-14 lg:pt-32 pb-16  bg-[#FAFAFC] px-4 lg:px-0 font-inter">
+            <h1 class="text-2xl lg:text-[40px] max-w-[1170px] mx-auto mb-[50px] font-bold ">Typography</h1>
+            <div class="rounded-3xl max-w-[1170px] mx-auto  shadow-xl bg-white py-8 lg:py-12 px-4 sm:px-8 xl:px-14">
+                <div class="block lg:flex items-center justify-between gap-5">
+                    <div class="">
+                        <h3 class="mb-4 text-2xl text-secendary font-semibold">Free Font
+                        </h3>
+                        <h1 class="text-headingColor font-extrabold mb-8 text-6xl">Inter
+                        </h1>
+                        <h3 class="mb-4 text-2xl font-semibold text-headingColor">5 font weights available
+                        </h3>
+                        <p class="text-lg text-[#979797] mb-8">“Lorem ipsum dolor sit amet consectetur adipiscing elit
+                            at erat consectetur ultricies sapien facilisi euismod duis mauris a sed quam aliquet dui
+                            eros sit lacus vitae ut viverra at praesent.”
+                        </p>
+                        <button class="bg-secendary rounded-md px-8 py-4 text-white text-lg">Download Font</button>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-[290px] text-headingColor leading-tight text-dark">Aa</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Special -->
+            <div class="max-w-[1170px] mx-auto">
+                <div class="mb-14 border-b border-gray-4 pb-6 mt-10 lg:mt-20">
+                    <h1 class="text-2xl lg:text-[40px] font-bold text-headingColor">Special headings</h1>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[180px] w-full">
+                            <h1 class="font-bold text-headingColor mb-6 text-[28px]">Heading H1</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Bold</h3>
+                            <h3 class="font-medium text-lg text-secendary">60px / 72px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-6xl font-extrabold text-headingColor">Lorem ipsum dolor sit amet, adipiscing elit.</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[180px] w-full">
+                            <h1 class="font-bold text-headingColor mb-6 text-[28px]">Heading H2</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Bold</h3>
+                            <h3 class="font-medium text-lg text-secendary">48px / 58px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-5xl font-bold text-headingColor">Lorem ipsum dolor sit amet, adipiscing elit.</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[180px] w-full">
+                            <h1 class="font-bold text-headingColor mb-6 text-[28px]">Heading H3</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Bold</h3>
+                            <h3 class="font-medium text-lg text-secendary">40px / 48px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-[40px] font-semibold text-headingColor">Lorem ipsum dolor sit amet, adipiscing elit.</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[180px] w-full">
+                            <h1 class="font-bold text-headingColor mb-6 text-[28px]">Heading H4</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Bold</h3>
+                            <h3 class="font-medium text-lg text-secendary">38px / 38px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-[38px] font-semibold text-headingColor">Lorem ipsum dolor sit amet, adipiscing elit.</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[180px] w-full">
+                            <h1 class="font-bold text-headingColor mb-6 text-[28px]">Heading H5</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Bold</h3>
+                            <h3 class="font-bold text-lg text-secendary">28px / 40px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-[28px] font-semibold text-headingColor">Lorem ipsum dolor sit amet, adipiscing elit.</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[180px] w-full">
+                            <h1 class="font-bold text-headingColor mb-6 text-[28px]">Heading H6</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Bold</h3>
+                            <h3 class="font-medium text-lg text-secendary">24px / 30px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-2xl font-semibold text-headingColor">Lorem ipsum dolor sit amet, adipiscing elit.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Body Large Text -->
+            <div class="max-w-[1170px] mx-auto">
+                <div class="mb-14 border-b border-gray-4 pb-6 mt-10 lg:mt-20">
+                    <h1 class="text-[28px] lg:text-[40px] font-semibold text-headingColor">Body Large Text</h1>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[270px] w-full">
+                            <h1 class="font-semibold text-headingColor mb-6 text-[28px]">Body Large Regular
+                            </h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Regular</h3>
+                            <h3 class="font-medium text-lg text-secendary">18px / 28px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-lg text-[#979797]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac enim mi pharetra amet.
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[270px] w-full">
+                            <h1 class="font-semibold text-headingColor mb-6 text-[27px]">Body Large Medium
+                            </h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Regular</h3>
+                            <h3 class="font-medium text-lg text-secendary">18px / 28px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-lg font-medium text-[#979797]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac enim mi pharetra amet.
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[270px] w-full">
+                            <h1 class="font-semibold text-headingColor mb-6 text-[28px]">Body Small Text
+                            </h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Regular</h3>
+                            <h3 class="font-medium text-lg text-secendary">14px / 22px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-lg font-bold text-[#979797]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac enim mi pharetra amet.
+                            </h1>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- body small text -->
+            <div class="max-w-[1170px] mx-auto">
+                <div class="mb-14 border-b border-gray-4 pb-6 mt-10 lg:mt-20">
+                    <h1 class="text-[28px] lg:text-[40px] font-semibold text-headingColor">Body Small Text</h1>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[270px] w-full">
+                            <h1 class="font-semibold text-headingColor mb-6 text-[28px]">Body Small Regular
+                            </h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Regular</h3>
+                            <h3 class="font-medium text-lg text-secendary">18px / 28px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-sm text-[#979797]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac enim mi pharetra amet.
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[270px] w-full">
+                            <h1 class="font-semibold text-headingColor mb-6 text-[28px]">Body Large Medium</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Regular</h3>
+                            <h3 class="font-medium text-lg text-secendary">18px / 28px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-sm font-medium text-[#979797]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac enim mi pharetra amet.
+                            </h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Body Extra Small Text -->
+            <div class="max-w-[1170px] mx-auto">
+                <div class="mb-14 border-b border-gray-4 pb-6 mt-10 lg:mt-20">
+                    <h1 class="lg:text-[40px] text-[28px] font-semibold text-headingColor">Body Extra Small Text</h1>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[270px] w-full">
+                            <h1 class="font-semibold text-headingColor mb-6 text-[28px]">Body Extra Small Regular
+                            </h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Regular</h3>
+                            <h3 class="font-medium text-lg text-secendary">12px / 20px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-xs text-[#979797]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac enim mi pharetra amet.
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row justify-between gap-8">
+                        <div class="max-w-[270px] w-full">
+                            <h1 class="font-semibold text-headingColor mb-6 text-[28px]">Body Extra Large Medium</h1>
+                            <h3 class="font-medium text-lg mb-2 text-[#B4B4BB]">Inter Regular</h3>
+                            <h3 class="font-medium text-lg text-secendary">12px / 20px</h3>
+                        </div>
+                        <div class="max-w-[805px] w-full">
+                            <h1 class="text-xs font-medium text-[#979797]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac enim mi pharetra amet.
+                            </h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Buttons -->
+            <div class="max-w-[1170px] mx-auto">
+                <div class="mb-14 border-b border-gray-4 pb-6 mt-10 lg:mt-20">
+                    <h1 class="text-[28px] lg:text-[40px] font-bold text-headingColor">Buttons</h1>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <button class="py-[10px] bg-headingColor rounded-md px-[22px] text-white">Subscribe</button>
+                    <button class="py-[10px] px-[18px] hover:bg-headingColor hover:text-white border rounded-full">Technology (03)</button>
+                    <button class="py-[14px] px-5 bg-[#625df5] text-white rounded-md">Subscribe</button>
+                    <button class="py-[14px] border rounded-md border-[#9ca3af] flex gap-3 items-center px-10"><i class="fa-brands fa-google"></i> Sign in with Google</button>
+                    <button class="py-[12px] px-[30px] border border-headingColor hover:bg-headingColor hover:text-white rounded-md">Browse all Posts</button>
+                </div>
+            </div>
+
+        </section>
+        <!-- main section end-->
+
+
+        <!-- footer-->
+        <footer>
+            <div
+                class="flex gap-4 lg:gap-0 items-center flex-col lg:flex-row lg:w-[1170px] mx-auto justify-between py-10 text-primaryFont">
+                <div>
+                    <h1>© 2025 Clarity. All rights reserved</h1>
+                </div>
+                <div class="flex items-center gap-2">
+                    <li class="list-none">Privacy</li>
+                    <li>Terms</li>
+                    <li>Contact</li>
+                    <li>Contribute</li>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <h1 class="text-[#15171a]">Follow Us:</h1>
+                    <div class="flex gap-2 items-center">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <button
+                            class="bg-headingColor text-white flex fixed bottom-6 right-6 items-center justify-center  h-10 w-10  rounded-md px-5 py-3">
+                            <i class="fa-solid fa-angle-up"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/2dfedb0ed0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

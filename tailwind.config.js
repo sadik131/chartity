@@ -9,6 +9,7 @@ module.exports = {
       colors:{
         primaryFont:"#5c6a78",
         headingColor:"#15171A",
+        secendary:"#2d68f8",
       },
       fontFamily:{
         inter:["Inter", "sans-serif"]
