@@ -10,6 +10,14 @@ Desktop / mobile page1 :https://drive.google.com/file/d/16sdJXzEl5oJNb2_1SwnhFjL
 
 dashtop / mobile page1 : https://drive.google.com/file/d/1cShX-lxH4OkfrIClGlul9msNcUg76qh-/view?usp=sharing
 
+## Installation
+
+This is a simple website created using HTML and CSS. Follow the instructions below to clone, install, and run the project.
+
+ 1. clone the repository from a terminal `git@github.com:sadik131/Haidh-Tracker.git`
+ 2. naviage to the project directory  `cd Haidh-Tracker`
+ 3. install project `npm start`
+
 ## Features
 
 * Responsive design with Tailwind CSS
