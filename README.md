@@ -6,9 +6,9 @@ A brief description of what this project does and who it's for
 
 ## PDF of website
 
-Desktop page1 :https://drive.google.com/file/d/1ged9DNWVXzqdB6E9FYuRT67uIyXzrBPA/view?usp=sharing
+Desktop / mobile page1 :https://drive.google.com/file/d/16sdJXzEl5oJNb2_1SwnhFjLMcCbEAbMx/view?usp=sharing
 
-Mobile page1 : https://drive.google.com/file/d/1TOSAxhKy0B-JkW8g_67ks2yN2fWtaINM/view?usp=sharing
+dashtop / mobile page1 : https://drive.google.com/file/d/1cShX-lxH4OkfrIClGlul9msNcUg76qh-/view?usp=sharing
 
 ## Features
 
