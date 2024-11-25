@@ -6,9 +6,9 @@ A brief description of what this project does and who it's for
 
 ## PDF of website
 
-Desktop / mobile page1 :https://drive.google.com/file/d/16sdJXzEl5oJNb2_1SwnhFjLMcCbEAbMx/view?usp=sharing
+Desktop / mobile page1 :https://drive.google.com/file/d/1nTe8oPHamTiqMXU0rkD9_VmBNuvWTieR/view?usp=sharing
 
-dashtop / mobile page1 : https://drive.google.com/file/d/1cShX-lxH4OkfrIClGlul9msNcUg76qh-/view?usp=sharing
+dashtop / mobile page1 : https://drive.google.com/file/d/1jKfxbskhZbF4R3xl_acgh1qEUYRd1Srj/view?usp=sharing
 
 ## Installation
 
